@@ -40,7 +40,7 @@ border-radius: 20px;
   font-weight: 700;
   position: relative;
   left: 45px;
-  bottom: 20px;
+  bottom: 10px;
 }
 
 .number2 {
@@ -50,8 +50,8 @@ border-radius: 20px;
   font-weight: 500;
   opacity: 0.6;
   position: relative;
-  top: 70px;
-  right: 8px;
+  bottom: 65px;
+  left: 52px;
 
 }
 
@@ -77,6 +77,59 @@ border-radius: 20px;
 }
 
 .summary {
+ font-family: 'Hanken Grotesk', sans-serif;
+ font-size: 20px;
+ font-weight: 700;
  position: relative;
- left: 350px;
+ left: 630px;
+ bottom: 405px;
+}
+
+.reaction {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: rgb(250, 63, 63);
+  width: 300px;
+  height: 120px;
+  background-color: hsl(0, 79%, 82%);
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+  left: 630px;
+  bottom: 405px;  
+}
+
+.memory {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: rgb(255, 255, 48); 
+ font-size: 18px;
+ font-weight: 700;
+ position: relative;
+ left: 630px;
+ bottom: 405px;
+}
+
+.verbal {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: rgb(65, 211, 65);
+ font-size: 18px;
+ font-weight: 700;
+ position: relative;
+ left: 630px;
+ bottom: 405px;
+}
+
+.visual {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: rgb(111, 111, 253);
+ font-size: 18px;
+ font-weight: 700;
+ position: relative;
+ left: 630px;
+ bottom: 405px;
+}
+
+button {
+ position: relative;
+ left: 630px;
+ bottom: 405px;
 }
