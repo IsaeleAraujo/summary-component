@@ -88,14 +88,25 @@ border-radius: 20px;
 .reaction {
   font-family: 'Hanken Grotesk', sans-serif;
   color: rgb(250, 63, 63);
-  width: 300px;
-  height: 120px;
-  background-color: hsl(0, 79%, 82%);
+  text-align: center;
+  border-style: solid;
+  border-radius: 10px;
+  border-color:hsl(0, 100%, 97%);
+  height: 40px;
+  width: 290px;
+  background-color: hsl(0, 100%, 97%);
   font-size: 18px;
   font-weight: 700;
   position: relative;
   left: 630px;
-  bottom: 405px;  
+  bottom: 405px; 
+}
+
+.score-r {
+  font-family: 'Hanken Grotesk', sans-serif;
+  position: relative;
+  left: 850px;
+  bottom: 620px; 
 }
 
 .memory {
