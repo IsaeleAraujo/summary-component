@@ -95,11 +95,20 @@ border-radius: 20px;
   height: 40px;
   width: 290px;
   background-color: hsl(0, 100%, 97%);
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
   position: relative;
   left: 630px;
   bottom: 405px; 
+}
+
+.lightning {
+  width: 15px;
+  height: 15px;
+  fill: hsl(0, 100%, 67%);
+  position: relative;
+  right: 160px;
+  top: 10px;
 }
 
 .score-r {
