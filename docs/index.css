@@ -89,25 +89,30 @@ border-radius: 20px;
   font-family: 'Hanken Grotesk', sans-serif;
   color: rgb(250, 63, 63);
   text-align: center;
-  border-style: solid;
   border-radius: 10px;
-  border-color:hsl(0, 100%, 97%);
-  height: 40px;
-  width: 290px;
-  background-color: hsl(0, 100%, 97%);
-  font-size: 15px;
   font-weight: 700;
+  left: 630px;
+  
+  font-size: 15px;
   position: relative;
   left: 630px;
   bottom: 405px; 
 }
+
+.container-r {
+  height: 40px;
+  width: 290px;
+  border-color:hsl(0, 100%, 97%);
+  background-color:hsl(0, 100%, 97%);
+}
+  
 
 .lightning {
   width: 15px;
   height: 15px;
   fill: hsl(0, 100%, 67%);
   position: relative;
-  right: 160px;
+  right: 150px;
   top: 10px;
 }
 
