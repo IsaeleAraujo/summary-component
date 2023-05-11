@@ -79,31 +79,32 @@ border-radius: 20px;
 .summary {
  font-family: 'Hanken Grotesk', sans-serif;
  font-size: 20px;
- font-weight: 700;
+ font-weight: 800;
  position: relative;
  left: 630px;
  bottom: 405px;
+ opacity: 0.8;
 }
 
 .reaction {
   font-family: 'Hanken Grotesk', sans-serif;
   color: rgb(250, 63, 63);
-  text-align: center;
-  border-radius: 10px;
-  font-weight: 700;
-  left: 630px;
-  
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 16px;
   position: relative;
-  left: 630px;
-  bottom: 405px; 
+  left: 670px;
+  bottom: 396px;
+  z-index: 2; 
 }
 
 .container-r {
   height: 40px;
-  width: 290px;
-  border-color:hsl(0, 100%, 97%);
-  background-color:hsl(0, 100%, 97%);
+  width: 260px;
+  background-color:hsl(0, 77%, 91%);
+  border-radius: 10px;
+  position: relative; 
+  left: 630px;
+  bottom: 440px;
 }
   
 
@@ -112,15 +113,22 @@ border-radius: 20px;
   height: 15px;
   fill: hsl(0, 100%, 67%);
   position: relative;
-  right: 150px;
-  top: 10px;
+  right: 90px;
+  top: 2px;
 }
 
 .score-r {
   font-family: 'Hanken Grotesk', sans-serif;
   position: relative;
-  left: 850px;
-  bottom: 620px; 
+  left: 810px;
+  bottom: 650px; 
+}
+
+.score-r::first-letter{
+  font-weight: 800;
+}
+.score-r::nth-child(2) {
+  font-weight: 800; 
 }
 
 .memory {
