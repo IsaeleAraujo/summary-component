@@ -133,32 +133,63 @@ border-radius: 20px;
 
 .memory {
   font-family: 'Hanken Grotesk', sans-serif;
-  color: rgb(255, 255, 48); 
- font-size: 18px;
- font-weight: 700;
- position: relative;
- left: 630px;
- bottom: 405px;
+  color: rgb(248, 248, 68); 
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  left: 670px;
+  bottom: 396px;
+  z-index: 2; 
+}
+
+.container-m{
+  height: 40px;
+  width: 260px;
+  background-color:hsl(62, 86%, 86%);
+  border-radius: 10px;
+  position: relative; 
+  left: 630px;
+  bottom: 440px; 
 }
 
 .verbal {
   font-family: 'Hanken Grotesk', sans-serif;
   color: rgb(65, 211, 65);
- font-size: 18px;
- font-weight: 700;
- position: relative;
- left: 630px;
- bottom: 405px;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  left: 670px;
+  bottom: 396px;
+  z-index: 2;
 }
-
+.container-ve{
+  height: 40px;
+  width: 260px;
+  background-color:hsl(115, 74%, 82%);
+  border-radius: 10px;
+  position: relative; 
+  left: 630px;
+  bottom: 440px;
+}
 .visual {
   font-family: 'Hanken Grotesk', sans-serif;
   color: rgb(111, 111, 253);
- font-size: 18px;
- font-weight: 700;
- position: relative;
- left: 630px;
- bottom: 405px;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  left: 670px;
+  bottom: 396px;
+  z-index: 2;
+}
+
+.container-vi{
+  height: 40px;
+  width: 260px;
+  background-color:hsl(216, 74%, 82%);
+  border-radius: 10px;
+  position: relative; 
+  left: 630px;
+  bottom: 440px;
 }
 
 button {
