@@ -120,16 +120,16 @@ border-radius: 20px;
 .score-r {
   font-family: 'Hanken Grotesk', sans-serif;
   position: relative;
-  left: 810px;
-  bottom: 650px; 
+  left: 800px;
+  bottom: 649px; 
 }
 
-.score-r::first-letter{
-  font-weight: 800;
+.score-r2{
+  position: relative;
+  left: 820px;
+  bottom: 684px; 
 }
-.score-r::nth-child(2) {
-  font-weight: 800; 
-}
+
 
 .memory {
   font-family: 'Hanken Grotesk', sans-serif;
