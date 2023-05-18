@@ -116,18 +116,16 @@ border-radius: 20px;
   right: 90px;
   top: 2px;
 }
-
+.chat{
+  width: 15px;
+  height: 15px;
+  fill: hsl(101, 98%, 64%)
+}
 .score-r {
   font-family: 'Hanken Grotesk', sans-serif;
   position: relative;
   left: 800px;
   bottom: 649px; 
-}
-
-.score-r2{
-  position: relative;
-  left: 820px;
-  bottom: 684px; 
 }
 
 
