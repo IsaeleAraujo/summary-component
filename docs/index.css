@@ -1,22 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+/*== Global Value/Variables ==*/
+
+:root {
+  --gradient-1: linear-gradient( hsl(252, 100%, 67%) 15%, hsl(241, 81%, 54%));
+  --gradient-2: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  --light-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+
+  --Hanken-family: 'Hanken Grotesk', sans-serif;
+  --light-weight: 500;
+  --medium-weight: 700;
+  --bold-weight: 800;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* == Mobile Design== */
+body {
+ width: 100%;
+ height: 100%;
+}
+
 
 .box-1{
  display: flex;
  flex-direction: column;
- align-items: center;
  width: 180px;
  height: 290px;
- padding: 50px;
- margin: 50px;
- margin-left: 320px;
-background: linear-gradient( hsl(252, 100%, 67%) 15%, hsl(241, 81%, 54%));
+background: var(--gradient-1);
 border-radius: 20px;
 }
 
 .circle{
   height: 150px;
   width: 150px;
-  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  background: var(--gradient-2);
   display: inline-block;
   border-radius: 50%;
   position: relative;
@@ -25,7 +54,7 @@ border-radius: 20px;
 }
 
 .result {
-  color: hsl(0, 0%, 100%);
+  color:var(--white);
   font-family: 'Hanken Grotesk', sans-serif;
   font-size: 20px;
   opacity: 0.6;
@@ -34,7 +63,7 @@ border-radius: 20px;
 }
 
 .number1 {
-  color: hsl(0, 0%, 100%);
+  color: var(--white);
   font-family: 'Hanken Grotesk', sans-serif;
   font-size: 50px;
   font-weight: 700;
@@ -44,7 +73,7 @@ border-radius: 20px;
 }
 
 .number2 {
-  color: hsl(0, 0%, 100%);
+  color: var(--white);
   font-family: 'Hanken Grotesk', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -56,7 +85,7 @@ border-radius: 20px;
 }
 
 .great {
-  color: hsl(0, 0%, 100%);
+  color:var(--white);
   font-family: 'Hanken Grotesk', sans-serif;
   font-size: 23px;
   font-weight: 700;
@@ -65,7 +94,7 @@ border-radius: 20px;
 }
 
 .score {
-  color: hsl(0, 0%, 100%);
+  color:var(--white);
   font-family: 'Hanken Grotesk', sans-serif;
   font-size: 13px;
   font-weight: 500;
@@ -88,7 +117,7 @@ border-radius: 20px;
 
 .reaction {
   font-family: 'Hanken Grotesk', sans-serif;
-  color: rgb(250, 63, 63);
+  color: var(--light-red);
   font-weight: 500;
   font-size: 16px;
   position: relative;
@@ -100,7 +129,7 @@ border-radius: 20px;
 .container-r {
   height: 40px;
   width: 260px;
-  background-color:hsl(0, 77%, 91%);
+  background: var(--light-red);
   border-radius: 10px;
   position: relative; 
   left: 630px;
@@ -111,7 +140,7 @@ border-radius: 20px;
 .lightning {
   width: 15px;
   height: 15px;
-  fill: hsl(0, 100%, 67%);
+  fill: var(--light-red);
   position: relative;
   right: 90px;
   top: 2px;
@@ -133,7 +162,7 @@ border-radius: 20px;
 
 .memory {
   font-family: 'Hanken Grotesk', sans-serif;
-  color: rgb(248, 248, 68); 
+  color:var(--orangey-yellow); 
   font-weight: 500;
   font-size: 16px;
   position: relative;
@@ -145,7 +174,7 @@ border-radius: 20px;
 .container-m{
   height: 40px;
   width: 260px;
-  background-color:hsl(62, 86%, 86%);
+  background:var(--orangey-yellow)
   border-radius: 10px;
   position: relative; 
   left: 630px;
@@ -154,7 +183,7 @@ border-radius: 20px;
 
 .verbal {
   font-family: 'Hanken Grotesk', sans-serif;
-  color: hsl(140, 90%, 35%);
+  color: var(--green-teal);
   font-weight: 500;
   font-size: 16px;
   position: relative;
@@ -165,7 +194,7 @@ border-radius: 20px;
 .container-ve{
   height: 40px;
   width: 260px;
-  background-color:hsl(115, 74%, 82%);
+  background-color:var(--green-teal);
   border-radius: 10px;
   position: relative; 
   left: 630px;
@@ -173,7 +202,7 @@ border-radius: 20px;
 }
 .visual {
   font-family: 'Hanken Grotesk', sans-serif;
-  color: rgb(111, 111, 253);
+  color: var(--cobalt-blue);
   font-weight: 500;
   font-size: 16px;
   position: relative;
@@ -185,7 +214,7 @@ border-radius: 20px;
 .container-vi{
   height: 40px;
   width: 260px;
-  background-color:hsl(216, 74%, 82%);
+  background-color:var(--light-lavender);
   border-radius: 10px;
   position: relative; 
   left: 630px;
