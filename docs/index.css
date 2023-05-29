@@ -7,8 +7,8 @@
 /*== Global Value/Variables ==*/
 
 :root {
-  --gradient-1: linear-gradient( hsl(252, 100%, 67%) 15%, hsl(241, 81%, 54%));
-  --gradient-2: linear-gradient(hsl(256, 72%, 46%, 1), hsl(241, 72%, 46%, 0));
+  --gradient-box: linear-gradient( hsl(252, 100%, 67%) 15%, hsl(241, 81%, 54%));
+  --gradient-circle: linear-gradient(hsl(256, 72%, 46%, 1), hsl(241, 72%, 46%, 0));
   --light-red: hsl(0, 100%, 67%);
   --orangey-yellow: hsl(39, 100%, 56%);
   --green-teal: hsl(166, 100%, 37%);
@@ -18,11 +18,10 @@
   --light-lavender: hsl(241, 100%, 89%);
   --dark-gray-blue: hsl(224, 30%, 27%);
 
-  --font-family: 'Hanken';
+  --Hanken: 'Hanken';
   --light-weight: 500;
   --medium-weight: 700;
   --bold-weight: 800;
-
 }
 
 * {
@@ -43,59 +42,50 @@ main {
   text-align: center;
   inset: 50% 0 0 50%;
   transform: translate(-40%,-30%);
+  color: var(--white);
+  font-family: var(--Hanken);
 }
 
 .box-1{
  width: 375px;
  height: 490px;
- background: var(--gradient-1);
+ background: var(--gradient-box);
  border-radius: 25px;
- 
 }
 
 .circle {
   height: 220px;
   width: 220px;
-  background: var(--gradient-2);
+  background: var(--gradient-circle);
   border-radius: 50%;
-  transform: translate(33%, 45%);
-
+  transform: translate(33%, 15%);
 }
 
 .result {
-  color: var(--white);
-  font: var(--light-weight);
   font-size: 20px;
   opacity: 0.6;
-  padding-top: 20%;
+  padding-top: 15%;
 }
 
 .number1 {
-  color: var(--white);
-  font-family: 'Hanken Grotesk', sans-serif;
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: 700;
+  transform: translate(15%, 50%);
 }
 
 .number2 {
-  color: var(--white);
-  font-family: 'Hanken Grotesk', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   opacity: 0.6;
-
+  transform: translateY(50%)
 }
 
 .great {
-  color:var(--white);
-  font-family: 'Hanken Grotesk', sans-serif;
   font-size: 23px;
   font-weight: 700;
 }
 
 .score {
-  color:var(--white);
-  font-family: 'Hanken Grotesk', sans-serif;
   font-size: 13px;
   font-weight: 500;
   text-align: center;
@@ -103,14 +93,12 @@ main {
 }
 
 .summary {
- font-family: 'Hanken Grotesk', sans-serif;
  font-size: 20px;
  font-weight: 800;
  opacity: 0.8;
 }
 
 .reaction {
-  font-family: 'Hanken Grotesk', sans-serif;
   color: var(--light-red);
   font-weight: 500;
   font-size: 16px;
@@ -140,7 +128,6 @@ main {
 
 
 .memory {
-  font-family: 'Hanken Grotesk', sans-serif;
   color:var(--orangey-yellow); 
   font-weight: 500;
   font-size: 16px;
