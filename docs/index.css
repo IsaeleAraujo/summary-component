@@ -65,42 +65,44 @@ main {
   font-size: 20px;
   opacity: 0.6;
   padding-top: 15%;
+  font-weight: var(--light-weight);
 }
 
-.number1 {
+.score {
   font-size: 5rem;
-  font-weight: 700;
-  transform: translate(15%, 50%);
+  font-weight: var(--bold-weight);
+  transform: translate(0, 40%);
 }
 
-.number2 {
+.number {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: var(--light-weight);
   opacity: 0.6;
-  transform: translateY(50%)
+  position: relative;
+  top: 10%;
 }
 
 .great {
   font-size: 23px;
-  font-weight: 700;
+  font-weight: var(--medium-weight);
 }
 
-.score {
+.description {
   font-size: 13px;
-  font-weight: 500;
+  font-weight: var(--light-weight);
   text-align: center;
   opacity: 0.8;
 }
 
 .summary {
  font-size: 20px;
- font-weight: 800;
+ font-weight: var(--bold-weight);
  opacity: 0.8;
 }
 
 .reaction {
   color: var(--light-red);
-  font-weight: 500;
+  font-weight: var(--light-weight);
   font-size: 16px;
   z-index: 2; 
 }
