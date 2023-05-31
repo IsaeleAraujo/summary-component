@@ -47,15 +47,15 @@ main {
 }
 
 .box-1{
- width: 375px;
+ width: 360px;
  height: 490px;
  background: var(--gradient-box);
  border-radius: 25px;
 }
 
 .circle {
-  height: 220px;
-  width: 220px;
+  height: 210px;
+  width: 210px;
   background: var(--gradient-circle);
   border-radius: 50%;
   transform: translate(33%, 15%);
@@ -79,19 +79,23 @@ main {
   font-weight: var(--light-weight);
   opacity: 0.6;
   position: relative;
-  top: 10%;
+  top: 14%;
 }
 
 .great {
   font-size: 23px;
   font-weight: var(--medium-weight);
+  position: relative;
+  top: 6%;
 }
 
 .description {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: var(--light-weight);
-  text-align: center;
   opacity: 0.8;
+  word-wrap: break-word;
+  position: relative;
+  top: 8%;
 }
 
 .summary {
