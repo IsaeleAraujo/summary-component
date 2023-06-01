@@ -47,23 +47,23 @@ main {
 }
 
 .box-1{
- width: 360px;
- height: 490px;
+ width: 368px;
+ height: 512px;
  background: var(--gradient-box);
  border-radius: 25px;
 }
 
 .circle {
-  height: 210px;
-  width: 210px;
+  height: 200px;
+  width: 200px;
   background: var(--gradient-circle);
   border-radius: 50%;
-  transform: translate(33%, 15%);
+  transform: translate(40%, 15%);
 }
 
 .result {
-  font-size: 20px;
-  opacity: 0.6;
+  font-size: 24px;
+  color: var(--light-lavender);
   padding-top: 15%;
   font-weight: var(--light-weight);
 }
@@ -77,31 +77,33 @@ main {
 .number {
   font-size: 1rem;
   font-weight: var(--light-weight);
-  opacity: 0.6;
+  opacity: 0.52;
   position: relative;
   top: 14%;
 }
 
 .great {
-  font-size: 23px;
+  font-size: 32px;
   font-weight: var(--medium-weight);
   position: relative;
-  top: 6%;
+  top: 10%;
 }
 
 .description {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: var(--light-weight);
-  opacity: 0.8;
-  word-wrap: break-word;
-  position: relative;
-  top: 8%;
+  color: var(--light-lavender);
+  position: absolute;
+  width: 260px;
+  height: 69px;
+  transform: translate(20%, 90%);
 }
 
 .summary {
- font-size: 20px;
+ font-size: 24px;
  font-weight: var(--bold-weight);
- opacity: 0.8;
+ color: var(--dark-gray-blue);
+ transform: translate(0, -30%);
 }
 
 .reaction {
