@@ -120,14 +120,15 @@ main {
 .components{
   position: absolute;
   top: 20%;
-  left: 14%;
+  left: 9%;
 }
 
 .reaction {
-  color: var(--light-red);
+  color: hsl(0, 94%, 51%);
   font-weight: var(--light-weight);
   font-size: 16px;
-  z-index: 2;
+  right: 27%;
+  position: relative;
 }
 
 .container-r {
@@ -135,23 +136,12 @@ main {
   width: 260px;
   background: var(--light-red);
   border-radius: 10px;
-  opacity: 0.1;
+  position: relative;
 }
 
-
-.lightning {
-  width: 15px;
-  height: 15px;
-  fill: var(--light-red);
-}
-
-.chat {
-  width: 15px;
-  height: 15px;
-}
-
-.score-r {
-  font-family: 'Hanken Grotesk', sans-serif;
+.icon-reaction {
+  position: absolute;
+  left: 9%;
 }
 
 
