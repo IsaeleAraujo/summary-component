@@ -124,26 +124,39 @@ main {
 }
 
 .reaction {
-  color: hsl(0, 94%, 51%);
+  color: var(--light-red);
   font-weight: var(--light-weight);
   font-size: 16px;
   right: 27%;
+  top: 20%;
   position: relative;
+  z-index: 2;
 }
 
 .container-r {
   height: 40px;
   width: 260px;
-  background: var(--light-red);
+  background: rgba(241, 158, 152, 0.15);
   border-radius: 10px;
   position: relative;
 }
 
 .icon-reaction {
   position: absolute;
-  left: 9%;
+  left: 2%;
+  top: 25%;
 }
 
+.score-r{
+  position: absolute;
+  color: black;
+  left: 60%;
+  top: 20%;
+}
+
+span{
+  font-weight: 700;
+}
 
 .memory {
   color: var(--orangey-yellow);
