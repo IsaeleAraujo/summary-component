@@ -171,9 +171,9 @@ span{
 .container-m {
   height: 40px;
   width: 260px;
-  background: var(--orangey-yellow);
+  background: hsl(39, 98%, 66%);
   border-radius: 10px;
-  position: absolute;
+  position: relative;
   top: 30%;
 }
 
