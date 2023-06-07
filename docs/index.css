@@ -122,8 +122,19 @@ main {
   top: 20%;
   left: 9%;
   display: grid;
+  grid-template-columns: repeat(1, 1fr);
   grid-column: 10px;
   grid-row-gap: 1em;
+}
+
+li{
+  list-style: none;
+  color: black;
+  display: grid;
+  position: relative;
+  grid-column: 10px;
+  grid-row-gap: 1em;
+  
 }
 
 .reaction {
@@ -144,16 +155,15 @@ main {
 
 .icon-reaction {
   position: absolute;
-  left: 2%;
-  top: 25%;
+
 }
 
-.score-r{
+/*.score-r{
   position: absolute;
   color: black;
   left: 60%;
   top: 20%;
-}
+} */
 
 span{
   font-weight: 700;
@@ -174,22 +184,14 @@ span{
   background: hsl(38, 78%, 82%);
   border-radius: 10px;
   position: relative;
-  top: 30%;
 }
 
-.icon {
-  position: absolute;
-  left: 2%;
-  top: 25%;
-}
 
 .verbal {
   color: var(--green-teal);
   font-weight: 500;
   font-size: 16px;
   position: relative;
-  right: 27%;
-  top: 20%;
   z-index: 2;
 }
 
