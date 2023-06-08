@@ -118,8 +118,11 @@ main {
 }
 
 .components{
+  width: 72px;
+  height: 23px;
+  font-weight: var(--light-weight);
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 9%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -127,19 +130,24 @@ main {
   grid-row-gap: 1em;
 }
 
-li{
+ul{
   list-style: none;
   color: black;
   display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 2rem;
   position: relative;
-  grid-column: 10px;
-  grid-row-gap: 1em;
-  
+  top: 10rem;
+  left: 4rem;
+  z-index: 2;
+}
+
+span{
+  font-weight: 700;
 }
 
 .reaction {
   color: var(--light-red);
-  font-weight: var(--light-weight);
   font-size: 16px;
   position: relative;
   z-index: 2;
@@ -153,21 +161,12 @@ li{
   position: relative;
 }
 
-.icon-reaction {
+.icon {
   position: absolute;
-
+  left: 1rem;
+ 
 }
 
-/*.score-r{
-  position: absolute;
-  color: black;
-  left: 60%;
-  top: 20%;
-} */
-
-span{
-  font-weight: 700;
-}
 
 .memory {
   color: var(--orangey-yellow);
@@ -198,8 +197,9 @@ span{
 .container-ve {
   height: 40px;
   width: 260px;
-  background-color: hsl(234, 84%, 83%);
+  background-color: hsl(234, 63%, 97%);
   border-radius: 10px;
+  position: relative;
 }
 
 .visual {
@@ -207,6 +207,7 @@ span{
   color: var(--cobalt-blue);
   font-weight: 500;
   font-size: 16px;
+  position: relative;
   z-index: 2;
 }
 
@@ -215,6 +216,7 @@ span{
   width: 260px;
   background-color: var(--cobalt-blue);
   border-radius: 10px;
+  position: relative;
   opacity: 0.1;
 }
 
