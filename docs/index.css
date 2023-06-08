@@ -118,9 +118,10 @@ main {
 }
 
 .components{
+  font-size: 8px;
   width: 72px;
   height: 23px;
-  font-weight: var(--light-weight);
+  font-weight: 500;
   position: absolute;
   top: 30%;
   left: 9%;
@@ -142,81 +143,63 @@ ul{
   z-index: 2;
 }
 
+
+
 span{
   font-weight: 700;
-}
-
-.reaction {
-  color: var(--light-red);
-  font-size: 16px;
-  position: relative;
-  z-index: 2;
-}
-
-.container-r {
-  height: 40px;
-  width: 260px;
-  background: rgba(241, 158, 152, 0.15);
-  border-radius: 10px;
-  position: relative;
 }
 
 .icon {
   position: absolute;
   left: 1rem;
- 
+  grid-row-gap: 1em;
 }
 
+
+.reaction {
+  color: var(--light-red);
+  z-index: 2;
+}
 
 .memory {
   color: var(--orangey-yellow);
-  font-weight: 500;
-  font-size: 16px;
-  position: relative;
   z-index: 2;
-
 }
-
-.container-m {
-  height: 40px;
-  width: 260px;
-  background: hsl(38, 78%, 82%);
-  border-radius: 10px;
-  position: relative;
-}
-
 
 .verbal {
   color: var(--green-teal);
-  font-weight: 500;
-  font-size: 16px;
-  position: relative;
   z-index: 2;
-}
-
-.container-ve {
-  height: 40px;
-  width: 260px;
-  background-color: hsl(234, 63%, 97%);
-  border-radius: 10px;
-  position: relative;
 }
 
 .visual {
-  font-family: 'Hanken Grotesk', sans-serif;
   color: var(--cobalt-blue);
-  font-weight: 500;
-  font-size: 16px;
-  position: relative;
-  z-index: 2;
 }
 
-.container-vi {
+.containers {
   height: 40px;
   width: 260px;
-  background-color: var(--cobalt-blue);
   border-radius: 10px;
   position: relative;
-  opacity: 0.1;
+  row-gap: 0rem;
+  
+}
+
+.container-r {
+  background:hsl(0, 100%, 67%);
+}
+
+
+.container-m {
+  background: hsl(38, 78%, 82%);
+}
+
+
+.container-ve {
+  background-color: hsl(234, 63%, 97%);
+}
+
+
+.container-vi {
+  background-color: var(--cobalt-blue);
 }
 
