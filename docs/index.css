@@ -143,18 +143,16 @@ ul{
   z-index: 2;
 }
 
-
-
 span{
   font-weight: 700;
 }
 
 .icon {
-  position: absolute;
+  position: relative;
+  display: grid;
   left: 1rem;
-  grid-row-gap: 1em;
+  row-gap: 1rem;
 }
-
 
 .reaction {
   color: var(--light-red);
@@ -176,30 +174,34 @@ span{
 }
 
 .containers {
-  height: 40px;
-  width: 260px;
   border-radius: 10px;
   position: relative;
-  row-gap: 0rem;
-  
+  display: grid;
+  opacity: 0.3;
 }
 
 .container-r {
-  background:hsl(0, 100%, 67%);
+  background:hsl(0, 73%, 63%);
+  height: 40px;
+  width: 260px;
+  
 }
-
 
 .container-m {
-  background: hsl(38, 78%, 82%);
+  background: hsl(39, 92%, 63%);
+  height: 40px;
+  width: 260px; 
 }
-
 
 .container-ve {
-  background-color: hsl(234, 63%, 97%);
+  background-color: hsl(135, 96%, 73%);
+  height: 40px;
+  width: 260px;
 }
-
 
 .container-vi {
   background-color: var(--cobalt-blue);
+  height: 40px;
+  width: 260px;
 }
 
