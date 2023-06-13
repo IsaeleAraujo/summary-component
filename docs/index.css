@@ -115,6 +115,7 @@ main {
   color: var(--dark-gray-blue);
   position: absolute; /*this make the element arrenged relative to the nearest positioned ancestor*/
   left: 10%;
+  top: 8%;
 }
 
 .components{
@@ -136,10 +137,10 @@ ul{
   color: black;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  row-gap: 2rem;
+  row-gap: 4em;
   position: relative;
-  top: 10rem;
-  left: 4rem;
+  top: 7rem;
+  left: 5rem;
   z-index: 2;
 }
 
@@ -176,37 +177,36 @@ span{
 .containers {
   position: absolute;
   display: grid;
-  row-gap: 1em;
+  row-gap: 3em;
   opacity: 0.3;
-  bottom: -4rem;
-
+  top: -5em;
 }
 
 .container-r {
   background:hsl(0, 73%, 63%);
-  height: 40px;
-  width: 260px;
+  height: 53px;
+  width: 280px;
   border-radius: 10px;  
 }
 
 .container-m {
   background: hsl(39, 92%, 63%);
-  height: 40px;
-  width: 260px; 
+  height: 53px;
+  width: 280px;
   border-radius: 10px;
 }
 
 .container-ve {
   background-color: hsl(135, 96%, 73%);
-  height: 40px;
-  width: 260px;
+  height: 53px;
+  width: 280px;
   border-radius: 10px;
 }
 
 .container-vi {
   background-color: var(--cobalt-blue);
-  height: 40px;
-  width: 260px;
+  height: 53px;
+  width: 280px;
   border-radius: 10px;
 }
 
