@@ -125,7 +125,7 @@ main {
   font-weight: 500;
   position: absolute;
   top: 30%;
-  left: 9%;
+  left: 10%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-column: 10px;
@@ -137,9 +137,9 @@ ul{
   color: black;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  row-gap: 4em;
+  row-gap: 2rem;
   position: relative;
-  top: 7rem;
+  bottom: 1rem;
   left: 5rem;
   z-index: 2;
 }
@@ -177,36 +177,37 @@ span{
 .containers {
   position: absolute;
   display: grid;
-  row-gap: 3em;
+  row-gap: 1em;
   opacity: 0.3;
-  top: -5em;
+  left: 2em;
+  top: 6em;
 }
 
 .container-r {
   background:hsl(0, 73%, 63%);
-  height: 53px;
-  width: 280px;
+  height: 49px;
+  width: 270px;
   border-radius: 10px;  
 }
 
 .container-m {
   background: hsl(39, 92%, 63%);
-  height: 53px;
-  width: 280px;
+  height: 49px;
+  width: 270px;
   border-radius: 10px;
 }
 
 .container-ve {
   background-color: hsl(135, 96%, 73%);
-  height: 53px;
-  width: 280px;
+  height: 49px;
+  width: 270px;
   border-radius: 10px;
 }
 
 .container-vi {
   background-color: var(--cobalt-blue);
-  height: 53px;
-  width: 280px;
+  height: 49px;
+  width: 270px;
   border-radius: 10px;
 }
 
