@@ -120,25 +120,23 @@ main {
 
 .components{
   font-size: 8px;
-  width: 72px;
-  height: 23px;
   font-weight: 500;
   position: absolute;
-  top: 30%;
-  left: 30%;
+  top: 22%;
+  left: 24%;
   display: grid;
   grid-template-columns: 1fr;
   grid-column: 10px;
-  grid-row-gap: 1em;
+  row-gap: 45px;
 }
 
 ul{
   list-style: none;
   color: black;
   display: grid;
-  row-gap: 3rem;
+  row-gap: 45px;
   position: relative;
-  bottom: 1rem;
+  bottom: 22%;
   left: 5rem;
   z-index: 2;
 }
@@ -150,8 +148,9 @@ span{
 .icon {
   position: relative;
   display: grid;
-  left: 1rem;
-  row-gap: 1rem;
+  left: 14%;
+  top: 22%;
+  row-gap: 45px;
 }
 
 .reaction {
@@ -177,7 +176,7 @@ span{
   position: absolute;
   display: grid;
   row-gap: 1rem;
-  opacity: 0.3;
+  opacity: 0.1;
   left: 2em;
   top: 6em;
 }
