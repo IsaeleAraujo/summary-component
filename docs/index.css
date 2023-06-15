@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Hanken';
-  src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+  src: url('fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
 }
 
 /*== Global Value/Variables ==*/
@@ -17,7 +17,7 @@
   --light-lavender: hsl(241, 100%, 89%);
   --dark-gray-blue: hsl(224, 30%, 27%);
 
-  --Hanken: 'Hanken', sans-serif;
+  --Hanken: 'Hanken';
   --light-weight: 500;
   --medium-weight: 700;
   --bold-weight: 800;
@@ -104,7 +104,7 @@ main {
   background: var(--white);
   box-shadow: 0px 50px 60px rgba(15, 38, 100, 0.15);
   position: absolute;
-  left: 30%;
+  left: 28%;
   top: 6%;
   border-radius: 25px;
 }
@@ -123,7 +123,7 @@ main {
   font-weight: 500;
   position: absolute;
   top: 22%;
-  left: 24%;
+  left: 26%;
   display: grid;
   grid-template-columns: 1fr;
   grid-column: 10px;
@@ -137,7 +137,7 @@ ul{
   row-gap: 45px;
   position: relative;
   bottom: 22%;
-  left: 5rem;
+  left: 6rem;
   z-index: 2;
 }
 
@@ -148,7 +148,7 @@ span{
 .icon {
   position: relative;
   display: grid;
-  left: 14%;
+  left: 16%;
   top: 22%;
   row-gap: 45px;
 }
@@ -177,7 +177,7 @@ span{
   display: grid;
   row-gap: 1rem;
   opacity: 0.1;
-  left: 2em;
+  left: 3em;
   top: 6em;
 }
 
@@ -209,3 +209,20 @@ span{
   border-radius: 10px;
 }
 
+button {
+  font-family: var(--Hanken);
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  border: none;
+  width: 270px;
+  height: 56px;
+  bottom: 14%;
+  left: 12%;
+  border-radius: 25px;
+}
+
+.attribution {
+  position: relative;
+}
