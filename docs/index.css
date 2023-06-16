@@ -40,7 +40,7 @@ main {
   position: relative;
   padding: 1rem 1rem 1rem;
   text-align: center;
-  inset: 50% 0 0 50%;
+  inset: 10% 0 0 50%;
   transform: translate(-40%, -30%);
   color: var(--white);
   font-family: var(--Hanken);
@@ -51,6 +51,8 @@ main {
   height: 512px;
   background: var(--gradient-box);
   border-radius: 25px;
+  position: absolute;
+  z-index: 2;
 }
 
 .circle {
@@ -106,7 +108,7 @@ main {
   box-shadow: 0px 50px 60px rgba(15, 38, 100, 0.15);
   position: absolute;
   left: 28%;
-  top: 6%;
+  top: 50%;
   border-radius: 25px;
 }
 
@@ -130,6 +132,7 @@ main {
   grid-column: 10px;
   row-gap: 45px;
 }
+
 
 ul{
   list-style: none;
@@ -189,6 +192,7 @@ span{
   border-radius: 10px;  
 }
 
+
 .container-m {
   background: hsl(39, 92%, 63%);
   height: 49px;
@@ -223,6 +227,12 @@ button {
   left: 12%;
   border-radius: 25px;
 }
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(222, 32%, 17%);
+}
+
 
 .attribution {
   position: relative;
