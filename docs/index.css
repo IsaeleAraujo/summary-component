@@ -38,6 +38,7 @@ body {
 
 main {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   position: relative;
   padding: 1rem 1rem 1rem;
   text-align: center;
@@ -104,12 +105,11 @@ main {
 
 .box-2 {
   width: 368px;
-  height: 490px;
+  height: 512px;
   background: var(--white);
   box-shadow: 0px 50px 60px rgba(15, 38, 100, 0.15);
   position: absolute;
-  left: 28%;
-  top: 80%;
+  left: 26%;
   border-radius: 25px;
 }
 
@@ -141,7 +141,7 @@ ul{
   display: grid;
   row-gap: 45px;
   position: relative;
-  bottom: 22%;
+  bottom: 21%;
   left: 6rem;
   z-index: 2;
 }
@@ -236,14 +236,23 @@ button:hover {
 
 
 .attribution {
+  color:hsl(222, 32%, 17%);
   position: relative;
+  bottom: 50%;
 }
 
 /* ==Mobile Design== */
 
-@media screen and (max-width: 375px){
-  main {
+@media (max-width: 768px){
+  main{
     grid-template-columns: 1fr;
+    grid-template-rows: 3fr 37fr;
   }
-  
+}
+
+@media (max-width: 480px) {
+  main{
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 37fr;
+  }
 }
