@@ -41,9 +41,8 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
-  padding: 1rem;
   text-align: center;
-  align-items: center; 
+  align-items: flex-start; 
   color: var(--white);
   font-family: var(--Hanken);
 }
@@ -51,7 +50,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat( 1fr);
+  grid-template-rows: auto 1fr; /* */
   place-items: center;
 }
 
@@ -261,6 +260,28 @@ button:hover {
     margin-bottom: 0;
   } 
 
+  .box-1 {
+    box-shadow: 0px 5px 10px rgba(15, 38, 100, 0.15);
+  } 
+  
+}
+
+@media (max-width: 768px) {
+
+  .grid-container { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; } 
+
+  .box-1 {
+    z-index: 2; /* use the order property to move box-1 above box-2 */
+
+  }
+  
+  .box-2 {
+    
+    margin-top: -30px; /* adjust this value to move box-2 up or down */
+  }
 }
 
 
