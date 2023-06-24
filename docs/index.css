@@ -244,7 +244,8 @@ button:hover {
 .attribution {
   color:hsl(222, 32%, 17%);
   position: relative;
-  bottom: 50%;
+  margin-top: 5%;
+  margin-right: 10%;
 }
 
 /* ==Desktop Design== */
@@ -274,7 +275,7 @@ button:hover {
     justify-content: center; } 
 
   .box-1 {
-    z-index: 2; /* use the order property to move box-1 above box-2 */
+    z-index: 2; 
 
   }
   
