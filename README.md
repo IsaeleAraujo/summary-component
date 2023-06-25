@@ -6,12 +6,11 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-[](./screenshot.jpg)
+[](./design/desktop-design.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/summarycomponent-using-media-query-css-grid-and-flexbox-e07pGvp6kT)
 
 ## My process
 

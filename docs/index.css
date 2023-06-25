@@ -42,7 +42,6 @@ body {
   justify-content: center;
   position: relative;
   text-align: center;
-  align-items: flex-start; 
   color: var(--white);
   font-family: var(--Hanken);
 }
@@ -51,7 +50,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr; /* */
-  place-items: center;
+  align-items: center;
 }
 
 .box-1 {
@@ -244,8 +243,8 @@ button:hover {
 .attribution {
   color:hsl(222, 32%, 17%);
   position: relative;
-  margin-top: 5%;
-  margin-right: 10%;
+  margin-bottom: 40%;
+  margin-right: 9%;
 }
 
 /* ==Desktop Design== */
