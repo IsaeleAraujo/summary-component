@@ -48,9 +48,10 @@ body {
 
 .grid-container {
   display: grid;
+  padding: 12rem;
   grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr; /* */
-  align-items: center;
+  grid-template-rows: auto 1fr; 
+  
 }
 
 .box-1 {
